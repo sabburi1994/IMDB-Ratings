@@ -53,7 +53,7 @@ public class DownloadData{
 
     public static String[] return_data() throws IOException {
         String apikey;//enter your apikey obtained from omdbapi
-        apikey = "464d4d63";
+        apikey = "xxxxxxx";
         String api_title, title,data, story, languages, rating;
         String[] array_values = new String[4];
         api_title = get_user_input();
